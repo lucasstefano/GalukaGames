@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    flex: 1;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.menu {
+    list-style: none;
+    margin: 11px;
+    padding: 0;
+    display: flex;
+    margin-right: 45px;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.botao-descubra{
+    background-color: #0332FC;
+    color: #FFFFFF;
+}
+
+.botao-descubra p{
+    color: #FFFFFF;
+   
+}
+.texto-container {
+    flex: 1;
+    padding: 10px;
+    margin-top: -233px;
+}
+
+.texto-container h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Fredoka One';
+}
+
+.texto-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #696969;
+}
+
+.imagem-container {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+.imagem-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner {
+    background-color: #efefef;
+    height: 444px;
+    position: relative;
+}
+
+.texto-produto {
+    font-family: 'Fredoka One';
+    flex: 1;
+    padding: 10px;
+    font-size: 32px;
+    text-align: justify;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50px;
+}
+
+.circulo {
+    width: 355px;
+    height: 355px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo img {
+    max-width: 490px;
+    max-height: 353px;
+}
+
+.texto-direita {
+    flex: 1;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 15px;
+    text-align: justify;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    width: 200px;
+    color: #696969;
+    transform: translateY(-50%);
+}
+
+.vantagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.vantagens-heading {
+    font-family: "Roboto";
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.vantagens-text {
+    font-family: "Roboto";
+    font-size: 14px;
+    text-align: center;
+    color: #696969;
+}
+
+.vantagem-box {
+    width: 200px;
+    padding: 10px;
+    background-color: #0332FC;
+    border: 1px solid #0332FC;
+    margin-left: 20px;
+}
+
+.vantagem-title {
+    font-size: 18px;
+    font: 'Roboto';
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.vantagem-caption {
+    font-size: 14px;
+    color: #fff;
+}
+
+.vantagens-imagem {
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.rodape {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-rodape img {
+    width: 100px;
+    margin-left: 45px;
+}
+
+.redes-sociais {
+    display: flex;
+}
+
+.icone {
+    margin-right: 25px;
+}
+
+.icone:last-child {
+    margin-right: 45px;
+}
+
+.icone img {
+    height: 27px;
+}
+
+.lista-contato {
+    margin-right: 45px;
+}
